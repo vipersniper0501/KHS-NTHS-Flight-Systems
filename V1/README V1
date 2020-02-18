@@ -1,0 +1,41 @@
+=========================================================================
+
+				 MFP V1
+
+				11/6/2019
+
+=========================================================================
+
+
+Info:
+=====
+The Moore Flight Computer(MFP) software is desinged to run on the raspberry pi 0 on the MFP to accept the sensor
+data from the arduino and stores it in a spreadsheet. The MFP also captures and stores pictures from the raspberry pi 0.
+
+Prerequisits:
+=============
+1. A completed MFP system(see schematics)
+2. Access to the raspberry pi 0 via the peripherals
+3. Have the MFP software downloaded
+
+Warnings:
+========
+1. Ensure that the schematics have been followed properly
+2. Be careful running commands as root on the raspberry
+4. Follow instalation instructions carefuly 
+
+Installation:
+=============
+To begin you will need to gain access to the raspberry pi 0 by connecting the peripherals for example. Once you gain access to the 
+raspberry pi 0 you will need to download the MFP zip file from "ftp://stephen.iansweb.org/MFP/" and select the latest
+version. Once downloaded you will need to unzip the file by using the command, "sudo unzip /example/direcotry/file.zip", 
+replacing the relavent information. Cd into the extracted files and unpack the tar.gz file by using the command, 
+"sudo tar -xvzf /example/directry/file.tar.gz". Cd into the new directory and run the "install.sh" script by typing
+the command, "./install.sh". Note you may need to be root to run this script. If all has gone to according to plan all you
+will need to do is reboot the raspberry pi 0 to begin data collection automaticly.
+
+Changelog:
+==========
+:MFP-v1
+1. Commented code
+2. Minor organizational changes
