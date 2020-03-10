@@ -1,0 +1,63 @@
+
+CPS, 1, CPM, 34, uSv/hr, 0.19, SLOW
+CPS, 0, CPM, 34, uSv/hr, 0.19, SLOW
+
+CPS, 0, CPM, 31, uSv/hr, 0.17, SLOW
+
+CPS, 0, CPM, 31, uSv/hr, 0.17, SLOW
+
+CPS, 0, CPM, 30, uSv/hr, 0.17, SLOW
+CPS, 1, CPM, 31, uSv/hr, 0.17, SLOW
+CPS, 1, CPM, 32, uSv/hr, 0.18, SLOW
+
+CPS, 2, CPM, 34, uSv/hr, 0.19, SLOW
+
+CPS, 1, CPM, 33, uSv/hr, 0.18, SLOW
+
+CPS, 0, CPM, 33, uSv/hr, 0.18, SLOW
+CPS, 0, CPM, 32, uSv/hr, 0.18, SLOW
+CPS, 1, CPM, 33, uSv/hr, 0.18, SLOW
+
+CPS, 1, CPM, 34, uSv/hr, 0.19, SLOW
+
+
+CPS, 0, CPM, 22, uSv/hr, 0.12, SLOW
+CPS, 1, CPM, 23, uSv/hr, 0.13, SLOW
+
+CPS, 1, CPM, 23, uSv/hr, 0.13, SLOW
+
+CPS, 0, CPM, 23, uSv/hr, 0.13, SLOW
+
+CPS, 0, CPM, 22, uSv/hr, 0.12, SLOW
+CPS, 0, CPM, 22, uSv/hr, 0.12, SLOW
+CPS, 0, CPM, 20, uSv/hr, 0.11, SLOW
+
+CPS, 0, CPM, 18, uSv/hr, 0.10, SLOW
+
+CPS, 0, CPM, 18, uSv/hr, 0.10, SLOW
+
+CPS, 0, CPM, 17, uSv/hr, 0.09, SLOW
+CPS, 1, CPM, 17, uSv/hr, 0.09, SLOW
+CPS, 0, CPM, 17, uSv/hr, 0.09, SLOW
+
+CPS, 0, CPM, 16, uSv/hr, 0.09, SLOW
+
+CPS, 0, CPM, 16, uSv/hr, 0.09, SLOW
+
+
+
+CPS, 1, CPM, 25, uSv/hr, 0.14, SLOW
+
+CPS, 0, CPM, 25, uSv/hr, 0.14, SLOW
+
+CPS, 1, CPM, 27, uSv/hr, 0.15, SLOW
+
+CPS, 1, CPM, 28, uSv/hr, 0.15, SLOW
+
+CPS, 0, CPM, 27, uSv/hr, 0.15, SLOW
+
+CPS, 1, CPM, 27, uSv/hr, 0.15, SLOW
+
+CPS, 1, CPM, 30, uSv/hr, 0.17, SLOW
+
+CPS, 0, CPM, 30, uSv/hr, 0.17, SLOW
