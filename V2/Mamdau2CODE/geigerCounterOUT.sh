@@ -10,7 +10,6 @@ function start {
 
 function start2 {
 	sudo touch /home/pi/Mamdau2DATA/geigertest.txt	
-
 	while read line
 	do
 		echo "$lin2e" >> /home/pi/Mamdau2DATA/geigertest.txt
