@@ -3,10 +3,6 @@
 This repository is for the storage and collaboration of the creation of the MAMDAU Flight computer that is used
 for high altitude ballons.
 
-# Header 1
-## Header 2
-### Header 3
-
 ### Devices and Sensors:
 (More details on the parts to come later)
 
