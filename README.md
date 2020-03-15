@@ -1,36 +1,31 @@
-## Welcome to GitHub Pages
+## MAMDAU Flight Computer
 
-You can use the [editor on GitHub](https://github.com/vipersniper0501/MAMDAU/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+This repository is for the storage and collaboration of the creation of the MAMDAU Flight computer that is used
+for high altitude ballons.
 
 # Header 1
 ## Header 2
 ### Header 3
 
-- Bulleted
-- List
+List of devices and sensors that are used in this system:
+(More details on the parts to come later)
 
-1. Numbered
-2. List
+- Raspberry Pi Zero (Raspberry Pi 3 works as well
+- 3 DSXXXXXX Temperature Sensors
+- 1 Adafruit UV sensor
+- Mighty Ohm Geiger Counter
+- Adafruit Ozone Sensor
+- Power bank that houses 4 double A batteries
 
-**Bold** and _Italic_ and `Code` text
+
+_Italic_ and `Code` text
+
+**Insert Schematics Here**
 
 [Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vipersniper0501/MAMDAU/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
