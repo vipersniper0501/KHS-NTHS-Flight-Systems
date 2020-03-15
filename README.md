@@ -7,7 +7,7 @@ for high altitude ballons.
 ## Header 2
 ### Header 3
 
-List of devices and sensors that are used in this system:
+### Devices and Sensors:
 (More details on the parts to come later)
 
 - Raspberry Pi Zero (Raspberry Pi 3 works as well
