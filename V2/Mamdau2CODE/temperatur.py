@@ -5,6 +5,7 @@ import sys
 from datetime import datetime
 import csv
 
+
 # Systempfad zum den Sensor, weitere Systempfade könnten über ein Array
 # oder weiteren Variablen hier hinzugefügt werden.
 # 28-02161f5a48ee müsst ihr durch die eures Sensors ersetzen!
@@ -16,7 +17,6 @@ sensor_1 = '/sys/bus/w1/devices/28-000004b91a2d/w1_slave'
 sensor_2 = '/sys/bus/w1/devices/28-000004b8a26d/w1_slave'
 sensor_3 = '/sys/bus/w1/devices/28-000004b8fb4c/w1_slave'
 
-#now = str(datetime.now())
 
 
 def readTempSensor(sensorName):
@@ -65,8 +65,6 @@ def main():
 
     try:
         while True:
-            now = str(datetime.now())
-
             # Mit einem Timestamp versehe ich meine Messung und lasse mir diese in der Console ausgeben.
             # I provide my measurement with a timestamp and have it displayed in the console.
             print("Temperature Sensor 1 at " + time.strftime('%H:%M:%S') + "   Temp. : " + str(readTempLines(sensor_1)[0]) + " °C")
@@ -95,7 +93,6 @@ def main():
             # und so weiter
             # and so on
 
-            time.sleep(1)
     except KeyboardInterrupt:
         # Programm wird beendet wenn CTRL+C gedrückt wird.
         # Program ends when CTRL + C is pressed.

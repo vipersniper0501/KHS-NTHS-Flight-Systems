@@ -23,7 +23,7 @@ def main():
         f.write(' ')
         f.write('\n')
         f.close()
-	
+
         while True:
             try:
                 with open('/home/pi/Mamdau2DATA/UVsensorData.csv', 'a+') as f:
@@ -40,11 +40,6 @@ def main():
                 f.close()
                 print('File Closed')
                 sys.exit(0)
-
-
-
-
-
 
 
 if __name__ == '__main__':
