@@ -14,7 +14,7 @@ filepath = "/home/pi/Mamdau2DATA/geigerCounterOutput.csv"
 
 async def read_in(queue):
     buffer = bytearray()
-    ser = serial.Serial(port='/dev/ttyAMA0', timeout=0, exclusive=True)
+    ser = serial.Serial(port='/dev/ttyAMA0', timeout=0, exclusive=True) 
     while True:
         try:
             if not ser.is_open:  # if port not open (due to not connecting correctly and not staying connected), reopens port
@@ -38,10 +38,11 @@ async def read_in(queue):
         await asyncio.sleep(.001)
 # READS Serial Connection and manages connection
 
+
 async def time_stamp(in_q, out_q):
     while True:
         item = await in_q.get()
-        stamped = '{} {}'.format(datetime.datetime.now(tz=datetime.timezone.utc).isoformat(sep=' '), item)
+        stamped = '{} {}'.format(datetime.datetime.now(tz=datetime.timezone.utc).isoformat(), item)
         await out_q.put(stamped)
 
 
