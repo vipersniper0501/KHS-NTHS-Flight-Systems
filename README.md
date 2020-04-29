@@ -14,21 +14,15 @@ for high altitude ballons.
 - Power bank that houses 4 double A batteries
 
 
-Quick Setup Guide
+Quick Setup Guide Version 1
 Installation of code on Raspberry Pi:
 1. Install Raspian OS on a micro-sd card and insert the micro-sd card into the raspberry pi zero
 2. Put installation code for the Moore Flight computer on a flash drive
-
 3. Insert flash drive into Raspberry Pi
-
 4. Using file manager equivalent on Raspberry Pi to find directory containing the system code.
-
-5. once found on the flash drive, open current location with terminal
-
-6. once in the terminal, unpack the folder using “sudo tar -xvzf MFP-0.3.tar.gz”
-
-7. once unpacked, in terminal type “cd MFP-0.3/MFP-0.3-src” to get to the directory containing the install file
-
+5. Once found on the flash drive, open current location with terminal
+6. once in the terminal, unpack the folder using `sudo tar -xvzf MFP-0.3.tar.gz`
+7. once unpacked, in terminal type `cd MFP-0.3/MFP-0.3-src` to get to the directory containing the install file
 8. Type `./install.sh` to install the new version of Moore Flight Computer code
 
 Installation of code on Arduino:
