@@ -46,6 +46,5 @@ for high altitude ballons.
 3. Open the micro-sd card on a linux device (the filesystem cannot be opened on a Windows device)
 4. The location of data should be around where the systems code is
 
-**Insert Schematics Here**
 
 
