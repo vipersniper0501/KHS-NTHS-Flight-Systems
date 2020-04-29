@@ -6,7 +6,7 @@ for high altitude ballons.
 ### Devices and Sensors:
 (More details on the parts to come later)
 
-- Raspberry Pi Zero (Raspberry Pi 3 works as well
+- Raspberry Pi Zero (Raspberry Pi 3 works as well)
 - 3 DS18B20 Temperature Sensors
 - 1 Adafruit UV sensor
 - Mighty Ohm Geiger Counter
