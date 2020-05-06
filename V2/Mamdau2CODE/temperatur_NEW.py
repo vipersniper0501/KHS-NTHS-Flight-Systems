@@ -7,6 +7,14 @@ OUTPUT_PATH = '/home/pi/Mamdau2DATA/TempDATA.csv'
 # BASE_PATH = '.'
 # OUTPUT_PATH = 'temp_out.txt'
 
+# Created by Nathaniel Schaaf for the NTHS systems team
+# His code brought the time between data collected down from 10 seconds between each collection to roughly 3 seconds between collection of data
+
+
+# Basic description of code:
+# The program is split up into two threads
+# The first thread (read_sensor) reads each sensor and collects the raw data. Once the data is collected, it gives the data to the second thread.
+# The second thread (write_data) takes the data from the first thread, converts the data into Celsius, adds a timestamp, and finally places the complete data into a spreadsheet to be accessed by the Science Team.
 
 def main():
     devices = pathlib.Path(BASE_PATH).glob('28-*/w1_slave')

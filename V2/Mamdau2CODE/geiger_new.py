@@ -10,7 +10,13 @@ filepath = "/home/pi/Mamdau2DATA/geigerCounterOutput.csv"
 # This Geiger Counter measures Beta and Gamma radiation in micro-Sieverts or "uSv"
 # The Geiger Counter measures the Counts per Second (CPS), Counts per Minute (CPM), and uSv/hr (Counts per Hour)
 
-
+# Basic description of how code works:
+# The program creates three threads for three different functions
+# The first thread (read_in) only takes the raw data from the geiger counter and keeps the connection alive between the Pi and the Geiger Counter. The raw data that this thread collects will given to the second thread.
+# The second thread (time_stamp) adds a time stamp to the beginning of the geiger counter output that was captured by the first thread so the Science Team can know when the data was captured. Once that time stamp is added, the new data is given to the third thread.
+# The third and final thread (print_out) takes the data from the second thread and places it into a spreadsheet.
+#
+# These are all running in different asynchronus threads because if they were not then the code would only be working on one line of data at a time making the program extremely slow.
 
 async def read_in(queue):
     buffer = bytearray()
