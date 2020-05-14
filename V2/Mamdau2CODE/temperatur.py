@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import time
@@ -14,12 +15,14 @@ import csv
 # or other variables can be added here.
 # 28-02161f5a48ee you have to replace with your sensor!
 sensor_1 = '/sys/bus/w1/devices/28-000004b91a2d/w1_slave'
+
 sensor_2 = '/sys/bus/w1/devices/28-000004b8a26d/w1_slave'
 sensor_3 = '/sys/bus/w1/devices/28-000004b8fb4c/w1_slave'
 
 
 
 def readTempSensor(sensorName):
+
     """Aus dem Systembus lese ich die Temperatur der DS18B20 aus."""
     """I read the temperature of the DS18B20 from the system bus."""
     f = open(sensorName, 'r')
@@ -29,6 +32,7 @@ def readTempSensor(sensorName):
 
 
 def readTempLines(sensorName):
+
     lines = readTempSensor(sensorName)
     # Solange nicht die Daten gelesen werden konnten, bin ich hier in einer Endlosschleife
     # As long as the data could not be read, I am in an endless loop
@@ -38,6 +42,7 @@ def readTempLines(sensorName):
     temperaturStr = lines[1].find('t=')
     # Ich überprüfe ob die Temperatur gefunden wurde.
     # I check if the temperature was found.
+
     if temperaturStr != -1:
         tempData = lines[1][temperaturStr + 2:]
         tempCelsius = float(tempData) / 1000.0
@@ -109,3 +114,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
