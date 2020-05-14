@@ -1,0 +1,56 @@
+= MAMDAU Flight Computer
+Author: Michael Brenner
+v1.0, 5/14/2020
+
+== Info/Description:
+
+This repository is for the storage and collaboration of the creation of the MAMDAU Flight computer that is used
+for high altitude ballons.
+
+
+== Prerequisits:
+
+=== Devices and Sensors for Version 2:
+
+- 1x Raspberry Pi Zero (Raspberry Pi 3 works as well)
+- 3x DS18B20 Temperature Sensors
+- 1x VEML 6075 UV sensor
+- 1x Mighty Ohm Geiger Counter
+- 1x DGS-O3 968-042 Ozone Sensor
+- 1x Adafruit Real Time Clock
+- 1x USB-A to Micro-USB
+- 1x Power bank that houses 4 double A batteries
+
+=== Devices and Sensors for Version 1:
+
+- 1x Raspberry Pi Zero
+- 1x Arduino UNO
+- 3x TMP 36 Temperature Sensors
+- 1x Raspberry Pi Camera
+- 1x VEML 6075 UV Sensor
+
+
+== Warnings:
+
+1. Ensure that the schematics have been followed properly
+2. Be careful running commands as root on the Raspberry Pi
+3. Follow installation instructions carefully 
+
+IMPORTANT: DO NOT TOUCH THE UNDERSIDE OF THE GEIGER COUNTER WHILE IT IS TURNED ON! If the underside of the Geiger Counter is touched while it is turned on you will short circuit it and damage the capacitors and resitors!
+
+
+
+== Installations:
+
+link:./V1/README.adoc[Quick Installation Guide for MAMDAU Version 1]
+
+link:./V2/README.adoc[Quick Installation Guide for MAMDAU Version 2]
+
+
+
+
+
+
+
+
+

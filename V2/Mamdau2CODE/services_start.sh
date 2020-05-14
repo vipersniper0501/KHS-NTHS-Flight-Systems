@@ -1,12 +1,17 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 function main {
-  cd /home/pi/Mamdau2CODE
 
-  sudo python3 uvsensor.py "/home/pi/Mamdau2DATA/UVsensorDATA.txt"
-  sudo python3 temperatur.py
-  sudo python3 geigerCounter.py
+  cd /home/pi/Mamdau2CODE	
+
+  sudo nohup python3 uvsensor.py &
+ 
+
+  sudo nohup python3 temperatur_NEW.py &
+  
+
+  sudo nohup python3 geiger_new.py &
+
 }
-#################
+
 main
-##########
