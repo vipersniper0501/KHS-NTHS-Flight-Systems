@@ -1,5 +1,7 @@
 = Quick Setup Guide For MAMDAU Version 2
 
+NOTE: This is currently outdated. Will be updated soon.
+
 === Installation of code on Raspberry Pi:
 
 1. Install Raspian OS on a micro-sd card
