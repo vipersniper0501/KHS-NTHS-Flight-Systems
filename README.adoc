@@ -4,9 +4,8 @@ v1.0, 5/14/2020
 
 == Info/Description:
 
-This repository is for the storage and collaboration of the creation of the MAMDAU Flight computer that is used
-for high altitude ballons.
-
+This repository is for the storage and collaboration of the creation of the MAMDAU Flight computer and KHS NTHS Flight Systems that are used
+for our high altitude ballons.
 
 == Prerequisits:
 
