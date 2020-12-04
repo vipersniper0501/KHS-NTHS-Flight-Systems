@@ -1,4 +1,4 @@
-= MAMDAU Flight Computer
+= KHS NTHS Flight Systems
 Author: Michael Brenner
 v1.0, 5/14/2020
 
@@ -9,6 +9,9 @@ for high altitude ballons.
 
 
 == Prerequisits:
+
+=== Devices and Sensors for Version 3:
+ - 
 
 === Devices and Sensors for Version 2:
 
@@ -44,7 +47,9 @@ IMPORTANT: DO NOT TOUCH THE UNDERSIDE OF THE GEIGER COUNTER WHILE IT IS TURNED O
 
 link:./V1/README.adoc[Quick Installation Guide for MAMDAU Version 1]
 
-link:./V2/README.adoc[Quick Installation Guide for MAMDAU Version 2]
+link:./V2/README.adoc[Quick Installation Guide for KHS NTHS Flight Systems Version 2]
+
+link:./V3/README.adoc[Quick Installation Guide for KHS NTHS Flight Systems Version 3]
 
 
 
